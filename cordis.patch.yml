@@ -1,0 +1,14 @@
+# Use Ollama's signed-in web search instead of DeepSeek search.
+- id: web
+  config:
+    searchProvider: ollama
+    fetchProvider: ollama
+
+- id: web-search-deepseek
+  disabled: true
+
+- insert:
+    - id: web-search-ollama
+      name: dsh-web-search-ollama
+      config:
+        host: http://127.0.0.1:11434

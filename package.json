@@ -1,0 +1,14 @@
+{
+  "name": "dsh-web-search-ollama",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "Ollama-backed web_search + web_fetch for DeepSeek Harness (local signed-in Ollama, no DeepSeek key)",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
