@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama 网页搜索",
+    "description": "添加由 Ollama 驱动的 web_search 与 web_fetch，让 Agent 通过本地已登录的 Ollama 主机搜索，无需 DEEPSEEK_API_KEY。"
+  }
+}

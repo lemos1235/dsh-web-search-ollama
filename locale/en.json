@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama web search",
+    "description": "Adds Ollama-backed web_search and web_fetch providers, so the agent searches through a local signed-in Ollama host without DEEPSEEK_API_KEY."
+  }
+}
